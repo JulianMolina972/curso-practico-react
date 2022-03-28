@@ -21,7 +21,7 @@ const App = () => {
     const initialState = useInitialState();
     return (
         <AppContext.Provider value={initialState}>
-            <BrowserRouter basename='/curso-practico-react'>
+            <BrowserRouter>
                 <Layout>
                     <Routes>
                         <Route exact path='/' element={<Home />} />

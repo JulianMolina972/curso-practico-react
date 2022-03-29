@@ -36,9 +36,11 @@
 	margin-bottom: 4px;
 }
 .value {
-	color: var(--very-light-pink);
 	font-size: var(--md);
-	margin: 8px 0 32px 0;
+	margin: 8px 0 20px 0;
+	padding: 10px;
+	background-color: var(--text-input-field);
+	border-radius: 10px;;
 }
 .secondary-button {
 	background-color: var(--white);
